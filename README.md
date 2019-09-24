@@ -1,5 +1,5 @@
 # Greatest-One-Liners-In-The-History-Of-Modern-Computer-Science-For-Linux-Developers-and-Many-More
-In my opinion the greates, gluten free, proLGBT, blessed by Linux demigods, Bash oneliners I found or created.
+In my opinion the greates, gluten free, proLGBT, blessed by Linux demigods, Bash oneliners I found or I created.
 
 
 1. Port scanning:
