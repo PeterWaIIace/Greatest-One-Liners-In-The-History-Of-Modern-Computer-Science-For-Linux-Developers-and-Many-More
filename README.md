@@ -14,3 +14,7 @@ for i in {1..255}; do ssh hostname@192.168.0.$i ; done
 ```
 find <find_args> -exec cat {} 
 ```
+4. Adding network capbilities to dummy object (ie python in venv):
+```
+#setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /venv/bin/dummy
+```
