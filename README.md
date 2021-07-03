@@ -18,3 +18,7 @@ find <find_args> -exec cat {}
 ```
 #setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /venv/bin/dummy
 ```
+5. Copy with tar
+```
+tar --exclude='.svn' -c -f - /path/to/sourcedir/* | (cd /path/to/destdir ; tar xfp -)
+```
