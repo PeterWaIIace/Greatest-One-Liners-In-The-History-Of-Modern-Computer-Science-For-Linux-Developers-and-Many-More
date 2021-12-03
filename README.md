@@ -26,3 +26,7 @@ tar --exclude='.svn' -c -f - /path/to/sourcedir/* | (cd /path/to/destdir ; tar x
 ```
 watch -d -t -g "ls -lah {filename}" 
 ```
+7. Compile C/C++ during development (watch execute makes)
+```
+watch "make ; [executable_name]" 
+```
