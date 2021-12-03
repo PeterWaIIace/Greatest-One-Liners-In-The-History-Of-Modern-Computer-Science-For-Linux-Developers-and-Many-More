@@ -22,3 +22,7 @@ find <find_args> -exec cat {}
 ```
 tar --exclude='.svn' -c -f - /path/to/sourcedir/* | (cd /path/to/destdir ; tar xfp -)
 ```
+6. Check if file changes (when file changes watch stops)
+```
+watch -d -t -g "ls -lah {filename}" 
+```
