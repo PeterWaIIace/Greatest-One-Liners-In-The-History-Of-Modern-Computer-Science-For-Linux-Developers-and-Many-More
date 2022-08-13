@@ -30,3 +30,7 @@ watch -d -t -g "ls -lah {filename}"
 ```
 watch "make ; [executable_name]" 
 ```
+8. Pythonic progress bar (Bit cheated though)
+```
+def progress_bar(finished, total): done = int((finished/total)*100); empty = 100 - done; string = "|"*done+" "*empty; print(f"\rProgress {done}%: [{string}]", end="\r")
+```
